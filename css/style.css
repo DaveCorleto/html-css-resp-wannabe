@@ -115,7 +115,7 @@ img {
 
 .why-us li {
     list-style: none;
-    margin-bottom: 2.5rem;
+    /* margin-bottom: 2.5rem; */
 }
 
 /************************************************
@@ -130,7 +130,7 @@ img {
 .container {
     max-width: 700px;
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 0;
 }
 
 .row {
@@ -153,6 +153,7 @@ img {
     max-width: 400px;
     margin: 0 auto;
     padding: 0 2px;
+    padding-bottom: 3rem;
 }
 
 .row {
@@ -167,28 +168,16 @@ img {
 }
 
 /* LESSONS SECTION */
-.lessons .col {
+.lessons .col, .steps .col, .why-us .col-right, .why-us .col-left  {
     width: 100%;
 }
-
-.steps .col {
-    width: calc(100%);
-}
-
 .steps {
     margin-bottom: 0;
 }
 .why-us {
     background-color: #161a2e;
     padding-top: 3rem;
-}
-
-.why-us .col-left {
-    width: 100%;
-}
-
-.why-us .col-right {
-    width: 100%;
+    margin-bottom: 0;   
 }
 
 }
